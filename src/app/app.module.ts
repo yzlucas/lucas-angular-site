@@ -11,10 +11,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-
-
-
+import {MatMenuModule} from '@angular/material/menu';
 
 @NgModule({
   imports: [
@@ -28,13 +25,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatToolbarModule,
     MatIconModule,
     MatTooltipModule,
-    BrowserAnimationsModule
-    
+    MatMenuModule,
+    BrowserAnimationsModule,
   ],
   exports: [
     MatToolbarModule,
     MatIconModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
   declarations: [
     AppComponent,
