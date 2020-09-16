@@ -9,6 +9,10 @@ import {MatListModule} from '@angular/material/list';
 import {MatSidenavModule} from '@angular/material/sidenav'
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import {MatTooltipModule} from '@angular/material/tooltip';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
 
 
 
@@ -22,11 +26,15 @@ import {MatIconModule} from '@angular/material/icon';
     MatListModule,
     MatSidenavModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    MatTooltipModule,
+    BrowserAnimationsModule
+    
   ],
   exports: [
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    BrowserAnimationsModule
   ],
   declarations: [
     AppComponent,
