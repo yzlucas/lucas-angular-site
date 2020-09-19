@@ -121,9 +121,16 @@
               "devServerTarget": "lucas-angular-site:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "lucas-angular-site"
+  "defaultProject": "lucas-angular-site",
+  "cli": {
+    "analytics": "8c0e0b42-d739-47c4-b1bf-baa23ada8d9a"
+  }
 }
