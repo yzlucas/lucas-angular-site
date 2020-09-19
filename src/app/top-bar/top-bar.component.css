@@ -7,3 +7,10 @@ a.topbar{
 .example-icon {
     margin-right: 3mm;
 }
+.profle{
+    background-image: url(../../assets/img/profile.jpeg);
+    background-position:center;
+}
+.mat-toolbar-single-row{
+    background-color:rgb(237, 233, 233)
+}

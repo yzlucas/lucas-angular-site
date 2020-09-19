@@ -11,7 +11,13 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.image{
+  background-size:cover;
+  background-image:url('../assets/img/RaymondLee.jpeg');
+  background-position:center;
+  background-repeat: no-repeat;
+  height:100%;
+}
   /*
   Copyright Google LLC. All Rights Reserved.
   Use of this source code is governed by an MIT-style license that

@@ -12,6 +12,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatMenuModule} from '@angular/material/menu';
+import { IntroComponent } from './intro/intro.component';
 
 @NgModule({
   imports: [
@@ -35,7 +36,8 @@ import {MatMenuModule} from '@angular/material/menu';
   ],
   declarations: [
     AppComponent,
-    TopBarComponent
+    TopBarComponent,
+    IntroComponent
   ],
   bootstrap: [ AppComponent ]
 })

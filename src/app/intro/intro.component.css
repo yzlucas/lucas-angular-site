@@ -1,0 +1,23 @@
+.introduction{
+    filter: brightness(500%);
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.introduction h1{
+    margin-right:100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.introduction h2{
+    text-align: center;
+    margin-right:50px;
+    font-size:large;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+}

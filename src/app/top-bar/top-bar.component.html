@@ -6,13 +6,14 @@
       <mat-icon>menu</mat-icon>
     </button>
     <mat-menu #menu="matMenu">
-      <button mat-menu-item>
+      <button mat-menu-item onclick="window.open('../assets/doc/resume.pdf','_blank')">
         <mat-icon>assignment_ind</mat-icon>Resume</button>
-      <button mat-menu-item>
+      <button mat-menu-item onclick="window.open('../assets/doc/Hadoop.pdf','_blank')">
         <mat-icon>desktop_mac</mat-icon>Projects</button>
     </mat-menu>
-
-    <span>Lucas's Angular Site</span>
+    <span>Lucas Li</span>
+    <div class="profile">
+    </div>
     <span class="example-spacer"></span>
     
     <button onclick="location.href='mailto:yzlucas@outlook.com';" mat-icon-button matTooltip="Email Lucas" class="example-icon favorite-icon" aria-label="Example icon-button with email icon">
@@ -26,13 +27,9 @@
     <button onclick="window.open('https://twitter.com/LucasLe74381899','_blank')" mat-icon-button matTooltip="Twitter" class="example-icon" aria-label="Example icon-button with twitter icon" >
       <mat-icon ><i class="fa fa-twitter" aria-hidden="true"></i></mat-icon>
     </button>
+
+    <button onclick="window.open('https://www.facebook.com/lucas.li.524/','_blank')" mat-icon-button matTooltip="Facebook" class="example-icon" aria-label="Example icon-button with twitter icon" >
+      <mat-icon ><i class="fa fa-facebook" aria-hidden="true"></i></mat-icon>
+    </button>
 </mat-toolbar>
-<p>
-  My Bonnie lies over the ocean.
 
-  My Bonnie lies over the sea.
-
-  My Bonnie lies over the ocean.
-
-  Oh, bring back my Bonnie to me.
-</p>
